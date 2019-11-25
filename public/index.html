@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles/styles.css" rel="stylesheet">
+        <title>TODO Application 2019</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1>TODO Application v2.0</h1>
+                <p><i>No one manages todo's like we do..</i></p>
+            </div>
+        </header>
+        <div class="actions">
+            <main class="container">
+                <div>
+                    <input type="image" src='./assets/searchImg.png'>
+                    <input type="text" placeholder="search a todo" id='searchQuery' class="input">
+                    <label >Hide Completed:
+                        <input type="checkbox" checked=true id='hideCompletedCheckbox'>
+                    </label>
+                    <table id='searchTodoTable' ></table>
+                </div>
+                <div>
+                    <br><br>
+                    <table id ='allTodoTable'></table>
+                </div><br><br>
+                <div>
+                    <p><u>Create a TODO</u></p><br>
+                    <form id = 'createTodoForm'>
+                        name: <input type="text" name='name' placeholder="todo name" class="input">
+                        <button type="submit" class="button">create</button>
+                    </form>
+                </div><br><br>
+                    <p><u>Remove all TODOs</u></p><br>
+                    <form id='removeAllTodoForm'>
+                        <button type="submit" class="button button--secondary">Remove all todos</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer class="container container__footer">
+            <p>Application designed exclusively for understanding javascript<br>
+                Developed by <b>Shashank garg</b> (<a href="https://github.com/dev-shashankgarg">github</a>)</p>
+        </footer>
+        <script src='./scripts/bundle.js'></script>
+    </body>
+</html>
+

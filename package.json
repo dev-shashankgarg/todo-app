@@ -1,0 +1,38 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "todo application",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.4.2",
+    "moment": "^2.24.0",
+    "regenerator-runtime": "^0.13.3",
+    "uuid": "^3.3.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-shashankgarg/todo-app.git"
+  },
+  "keywords": [
+    "js",
+    "webpack",
+    "todo"
+  ],
+  "author": "dev-shashankgarg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-shashankgarg/todo-app/issues"
+  },
+  "homepage": "https://github.com/dev-shashankgarg/todo-app#readme"
+}
